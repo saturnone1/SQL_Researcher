@@ -4,12 +4,12 @@ let num = 1;
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
     if (num === 18) {
-        myImage.setAttribute("src", "/SQL_Researcher/images/" + "1 (" + String(num) + ").jpg");
+        myImage.setAttribute("src", "/images/" + "1 (" + String(num) + ").jpg");
         //alert(num);
         num = 1;
     }
     else{
-        myImage.setAttribute("src", "/SQL_Researcher/images/" + "1 (" + String(num) + ").jpg");
+        myImage.setAttribute("src", "/images/" + "1 (" + String(num) + ").jpg");
         //alert(num);
         num += 1;
     }
