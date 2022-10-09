@@ -1,0 +1,36 @@
+html {
+    background-color: gray;
+    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high */
+    /* font-family: "Open Sans", sans-serif;  */
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Dongle', sans-serif;
+}
+
+body {
+    width: 1000px;
+    margin: 5% auto;
+    background-color: white;
+    padding: 0 30px 30px 30px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: lightslategray;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+p,li {
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img{
+    width: 600px;
+    display: block;
+    margin: 5% auto;
+}
